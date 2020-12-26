@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
 
         val floatingButton = findViewById<FloatingActionButton>(R.id.floating)
         floatingButton.setOnClickListener {
-            Toast.makeText(applicationContext, "start new activity or fragment :)", Toast.LENGTH_SHORT).show()
+            Toast.makeText(applicationContext, "start new activity or replace fragment :)", Toast.LENGTH_SHORT).show()
         }
     }
 
